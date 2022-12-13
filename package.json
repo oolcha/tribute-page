@@ -1,0 +1,50 @@
+{
+  "name": "gulp-layout-template",
+  "version": "1.0.0",
+  "description": "Frontend boilerplate based on Gulp",
+  "main": "index.js",
+  "scripts": {
+    "start": "gulp",
+    "build": "gulp build",
+    "lint": "stylelint src/**/*.scss && eslint src/**/*.js && htmllint --rc ./.htmllintrc src/*.html",
+    "prepare": "husky install"
+  },
+  "author": "Vitalii Bondarenko",
+  "license": "ISC",
+  "engines": {
+    "node": ">=18.12.1",
+    "yarn": "1.22.19"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.20.5",
+    "@babel/eslint-parser": "^7.19.1",
+    "browser-sync": "^2.27.10",
+    "colors": "^1.4.0",
+    "eslint": "^8.29.0",
+    "eslint-config-node": "^4.1.0",
+    "eslint-config-standard": "^17.0.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-n": "^15.6.0",
+    "eslint-plugin-promise": "^6.1.1",
+    "eslint-plugin-standard": "^5.0.0",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^8.0.0",
+    "gulp-clean": "^0.4.0",
+    "gulp-eslint-new": "^1.7.1",
+    "gulp-htmllint": "^0.0.19",
+    "gulp-replace-path": "^0.4.0",
+    "gulp-sass": "^5.1.0",
+    "gulp-sourcemaps": "^3.0.0",
+    "gulp-stylelint": "^13.0.0",
+    "htmllint": "^0.7.2",
+    "htmllint-cli": "^0.0.7",
+    "husky": "^8.0.2",
+    "node-sass": "^8.0.0",
+    "stylelint": "^14.16.0",
+    "stylelint-config-recommended-scss": "^8.0.0",
+    "stylelint-scss": "^4.3.0"
+  },
+  "browserslist": [
+    "last 2 versions"
+  ]
+}

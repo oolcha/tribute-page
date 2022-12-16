@@ -3,15 +3,112 @@
 @import "typography";
 
 body {
-  background: $c-gray;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 50px;
+  font-family: Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif;
+  font-size: 28px;
+  line-height: 1.5;
+  text-align: center;
+  color: #333;
+  margin: 0;
+}
+
+h1 {
+  font-size: 64px;
+  margin-bottom: 0;
+}
+
+@media (max-width: 460px) {
+  h1 {
+    font-size: 56px;
+    line-height: 1.2;
+  }
+}
+
+h2 {
+  font-size: 52px;
+}
+
+a {
+  color: #477ca7;
+}
+
+a:visited {
+  color: #74638f;
+}
+
+#main {
+  margin: 30px 8px;
+  padding: 15px;
+  border-radius: 5px;
+  background: #eee;
+}
+
+@media (max-width: 460px) {
+  #main {
+    margin: 0;
+  }
 }
 
 img {
-  width: 50px;
-  height: 50px;
-  margin-left: 20px;
+  max-width: 100%;
+  display: block;
+  height: auto;
+  margin: 0 auto;
+}
+
+#img-div {
+  background: #eee;
+  padding: 10px;
+  margin: 0;
+}
+
+#img-caption {
+  margin: 15px 0 5px;
+}
+
+@media (max-width: 460px) {
+  #img-caption {
+    font-size: 24px;
+  }
+}
+
+#headline {
+  margin: 50px 0;
+  text-align: center;
+}
+
+section {
+  display: block;
+}
+
+h3 {
+  display: block;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+ul {
+  max-width: 550px;
+  margin: 0 auto 50px;
+  text-align: left;
+  line-height: 1.6;
+  display: block;
+  list-style-type: disc;
+  margin-block-start: 16px;
+  margin-block-end: 16px;
+  margin-inline-start: 0;
+  margin-inline-end: 0;
+  padding-inline-start: 40px;
+}
+
+li {
+  margin: 16px 0;
+  display: list-item;
+  text-align: -webkit-match-parent;
+}
+
+blockquote {
+  font-style: italic;
+  max-width: 545px;
+  margin: 0 auto 50px;
+  text-align: left;
 }

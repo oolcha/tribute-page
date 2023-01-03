@@ -1,10 +1,6 @@
-@import "utils";
-@import "fonts";
-@import "typography";
-
 body {
-  font-family: Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif;
-  font-size: 28px;
+  font-family: Poppins, sans-serif;
+  font-size: 24px;
   line-height: 1.5;
   text-align: center;
   color: #333;
@@ -16,11 +12,8 @@ h1 {
   margin-bottom: 0;
 }
 
-@media (max-width: 460px) {
-  h1 {
-    font-size: 56px;
-    line-height: 1.2;
-  }
+p {
+  font-size: 32px;
 }
 
 h2 {
@@ -42,12 +35,6 @@ a:visited {
   background: #eee;
 }
 
-@media (max-width: 460px) {
-  #main {
-    margin: 0;
-  }
-}
-
 img {
   max-width: 100%;
   display: block;
@@ -65,12 +52,6 @@ img {
   margin: 15px 0 5px;
 }
 
-@media (max-width: 460px) {
-  #img-caption {
-    font-size: 24px;
-  }
-}
-
 #headline {
   margin: 50px 0;
   text-align: center;
@@ -82,8 +63,8 @@ section {
 
 h3 {
   display: block;
-  font-size: 20px;
-  font-weight: bold;
+  font-size: 32px;
+  font-weight: 700;
 }
 
 ul {
@@ -97,7 +78,6 @@ ul {
 li {
   margin: 16px 0;
   display: list-item;
-  text-align: -webkit-match-parent;
 }
 
 blockquote {
@@ -105,4 +85,24 @@ blockquote {
   max-width: 545px;
   margin: 0 auto 50px;
   text-align: left;
+}
+
+@media (max-width: 460px) {
+  h1 {
+    font-size: 44px;
+    line-height: 1.2;
+  }
+  li {
+    font-size: 18px;
+  }
+  p,
+  h3 {
+    font-size: 24px;
+  }
+  #img-caption {
+    font-size: 18px;
+  }
+  #main {
+    margin: 5px;
+  }
 }

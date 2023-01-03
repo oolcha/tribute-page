@@ -83,18 +83,7 @@ ul {
   margin: 0 auto 50px;
   text-align: left;
   line-height: 1.6;
-  display: block;
-  list-style-type: disc;
-  -webkit-margin-before: 16px;
-          margin-block-start: 16px;
-  -webkit-margin-after: 16px;
-          margin-block-end: 16px;
-  -webkit-margin-start: 0;
-          margin-inline-start: 0;
-  -webkit-margin-end: 0;
-          margin-inline-end: 0;
-  -webkit-padding-start: 40px;
-          padding-inline-start: 40px; }
+  display: block; }
 
 li {
   margin: 16px 0;

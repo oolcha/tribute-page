@@ -9,4 +9,4 @@
 7. Push to master will deploy your project to GitHub pages
 8. Update demo link below
 
-- [DEMO LINK](https://vitaliybondarenko1982.github.io/gulp-layout-template/)
+- [DEMO LINK](https://oolcha.github.io/tribute-page/)
